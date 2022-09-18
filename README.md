@@ -14,6 +14,6 @@ A small React CV application which allows users to create their own resume using
 
  ## Built with
  - [React](https://reactjs.org/)
- - [react-icons](https://www.npmjs.com/package/react-icons)
- - [react-to-print](https://www.npmjs.com/package/react-to-print)
- - [uuid](https://www.npmjs.com/package/uuid)
+ - [html2Canvas](https://html2canvas.hertzen.com/)
+ - [uniqId](https://github.com/adamhalasz/uniqid)
+ - [jsPDF](https://parall.ax/products/jspdf)
