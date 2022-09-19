@@ -20,12 +20,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: "Nunito", sans-serif;
     font-size: 1.6rem;
-    background-color: ${({ theme }) => theme.colors.background};
+    background-image: linear-gradient(to right bottom, #f1f6eb, #e9f5ec, #e2f3ef, #ddf0f2, #dcedf4, #d8eef7, #d5eefa, #d1effd, #c5f5fb, #c1faf1, #c9fde0, #ddfdcc);
     color: ${({ theme }) => theme.colors.dark};
-  }
-
-  header {
-    font-size: 2.4rem;
   }
 
   h1,
