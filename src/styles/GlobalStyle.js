@@ -20,7 +20,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: "Nunito", sans-serif;
     font-size: 1.6rem;
-    padding: 0% 0.5% 2.7% 1.25%;
     background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.dark};
   }
