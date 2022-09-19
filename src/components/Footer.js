@@ -29,7 +29,6 @@ const FooterContainer = styled.footer`
 
 const Link = styled.a`
   position: relative;
-  top: 0.2rem;
   margin-left: 1rem;
   color: ${({ theme }) => theme.colors.white};
   &:hover {
