@@ -1,5 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import PersonalInfoForm from './PersonalInfo';
+import EducationInfoForm from './EducationInfo';
+import ExperienceInfoForm from './ExperienceInfo';
+import SkillsInfoForm from './SkillsInfo';
+import Utilities from './Utilities';
 
 class Form extends React.Component {
     constructor(props) {
@@ -12,7 +17,11 @@ class Form extends React.Component {
     render() {
         return (
             <FormContainer>
-
+                <Utilities />
+                <PersonalInfoForm />
+                <EducationInfoForm />
+                <ExperienceInfoForm />
+                <SkillsInfoForm />
             </FormContainer>
         )
     }
