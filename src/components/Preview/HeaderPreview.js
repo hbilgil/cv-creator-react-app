@@ -9,7 +9,6 @@ class HeaderPreview extends React.Component {
       }
     }
 
-
   render() {
     const firstName = this.props.personalInfo[0].value;
     const capitalizedFirstName = firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase();
