@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import HeaderPreview from './HeaderPreview';
+import SidebarPreview from './SidebarPreview';
+import MainPreview from './MainPreview';
 
 class Preview extends React.Component {
     constructor(props) {
@@ -12,7 +15,11 @@ class Preview extends React.Component {
     render() {
         return (
             <PreviewContainer>
-
+                <HeaderPreview />
+                <MainContainer>
+                    <SidebarPreview />
+                    <MainPreview />
+                </MainContainer>
             </PreviewContainer>
         )
     }
@@ -42,6 +49,10 @@ const PreviewContainer = styled.div`
         transform: scale(0.45);
         flex-shrink: 0;
     }
+`;
+
+const MainContainer = styled.div`
+    display: flex;
 `;
 
 export default Preview;
