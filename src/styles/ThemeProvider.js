@@ -7,6 +7,9 @@ const Theme = {
       white: "#FFFFFF",
       linkHover: "#1cc3ed",
       linkActive: "#ed1cd5",
+      headerColor: "#34495E",
+      positionBackgroundColor: "#e7e8ea",
+      positionColor: "#5E345E",
     },
 };
   
