@@ -102,7 +102,7 @@ class Main extends React.Component {
           id: uniqid()
         },
       ],
-
+      
       newExperience: 
         {  
           company: "",
