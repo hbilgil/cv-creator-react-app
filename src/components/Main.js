@@ -125,7 +125,17 @@ class Main extends React.Component {
           personalInfo={this.state.personalInfo}
           educationInfo={this.state.educationInfo}
           experienceInfo={this.state.experienceInfo}
-          skillsInfo={this.state.skillsInfo} />
+          skillsInfo={this.state.skillsInfo}
+          autoFill={this.autoFill}
+          printDocument={this.printDocument} 
+          handlePersonalInfoChange={this.handlePersonalInfoChange}
+          handleEducationInfoChange={this.handleEducationInfoChange}
+          handleExperienceInfoChange={this.handleExperienceInfoChange}
+          handleSkillsInfoChange={this.handleSkillsInfoChange}
+          removeWork={this.removeWork}
+          addWork={this.addWork}
+          removeSkill={this.removeSkill}
+          addSkill={this.addSkill} />
         <Preview 
           personalInfo={this.state.personalInfo}
           educationInfo={this.state.educationInfo}
