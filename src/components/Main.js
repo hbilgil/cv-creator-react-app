@@ -97,10 +97,6 @@ class Main extends React.Component {
           skill: "",
           id: uniqid()
         },
-        { 
-          skill: "",
-          id: uniqid()
-        },
       ],
       
       newExperience: 
