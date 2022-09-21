@@ -14,11 +14,15 @@ class Utilities extends React.Component {
             <UtilitiesContainer>
                 <h2>Utilities</h2>
                 <ButtonsDiv>
-                    <Button>
+                    <Button
+                        type="button"
+                        onClick={this.props.autoFill}>
                         <i className="fa-regular fa-pen-to-square"></i>
                         <ButtonText>Example CV</ButtonText>
                     </Button>
-                    <Button>
+                    <Button
+                        type="button"
+                        onClick={this.props.printDocument}>
                         <i className="fa-regular fa-circle-down"></i>
                         <ButtonText>Download</ButtonText>
                     </Button>
