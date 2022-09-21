@@ -84,7 +84,7 @@ const PersonalFormDiv = styled.div`
     display: flex;
     flex-direction: column;
     padding: 3.75% 5% 4.25% 5%;
-    order-radius: 10px;
+    border-radius: 10px;
 `;
 
 const PersonalForm = styled.form`
