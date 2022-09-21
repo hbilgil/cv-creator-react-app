@@ -30,7 +30,7 @@ class ExperienceInfo extends React.Component {
                                 placeholder='Company'
                                 name="company"
                                 value={work.company}
-                                onChange={this.props.handleWorkChange}
+                                onChange={this.props.handleExperienceInfoChange}
                                 type="text"
                                 required>
                             </Input>
@@ -38,7 +38,7 @@ class ExperienceInfo extends React.Component {
                                 placeholder='Title'
                                 name="positionTitle"
                                 value={work.position}
-                                onChange={this.props.handleWorkChange}
+                                onChange={this.props.handleExperienceInfoChange}
                                 type="text"
                                 required>
                             </Input>
@@ -46,7 +46,7 @@ class ExperienceInfo extends React.Component {
                                 placeholder='Start Date'
                                 name="startDate"
                                 value={work.start}
-                                onChange={this.props.handleWorkChange}
+                                onChange={this.props.handleExperienceInfoChange}
                                 type="text"
                                 required>
                             </Input>
@@ -54,7 +54,7 @@ class ExperienceInfo extends React.Component {
                                 placeholder='End Date'
                                 name="endDate"
                                 value={work.end}
-                                onChange={this.props.handleWorkChange}
+                                onChange={this.props.handleExperienceInfoChange}
                                 type="text"
                                 required>
                             </Input>
@@ -62,7 +62,7 @@ class ExperienceInfo extends React.Component {
                                 placeholder='Your duties'
                                 name="duties"
                                 value={work.task}
-                                onChange={this.props.handleWorkChange}
+                                onChange={this.props.handleExperienceInfoChange}
                                 type="text"
                                 required>
                             </TextArea>

@@ -29,7 +29,7 @@ class SkillsInfo extends React.Component {
                         <Input
                             placeholder={exampleSkills[index]}
                             value={skill.skill}
-                            onChange={this.props.handleSkillChange}
+                            onChange={this.props.handleSkillsInfoChange}
                             id={skill.id}
                             type="text"
                             required>

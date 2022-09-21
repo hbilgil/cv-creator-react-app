@@ -17,11 +17,26 @@ class Form extends React.Component {
     render() {
         return (
             <FormContainer>
-                <Utilities />
-                <PersonalInfoForm />
-                <EducationInfoForm />
-                <ExperienceInfoForm />
-                <SkillsInfoForm />
+                <Utilities
+                    state={this.props.state}
+                    autoFill={this.props.autoFill}
+                    printDocument={this.props.printDocument} />
+                <PersonalInfoForm 
+                    personalInfo={this.props.personalInfo} 
+                    handlePersonalInfoChange={this.props.handlePersonalInfoChange} />
+                <EducationInfoForm 
+                    educationInfo={this.props.educationInfo} 
+                    handleEducationInfoChange={this.props.handleEducationInfoChange} />
+                <ExperienceInfoForm 
+                    experienceInfo={this.props.experienceInfo} 
+                    handleExperienceInfoChange={this.props.handleExperienceInfoChange} 
+                    removeWork={this.props.removeWork}
+                    addWork={this.props.addWork} />
+                <SkillsInfoForm 
+                    skillsInfo={this.props.skillsInfo}
+                    handleSkillsInfoChange={this.props.handleSkillsInfoChange}
+                    removeSkill={this.props.removeSkill}
+                    addSkill={this.props.addSkill} />
             </FormContainer>
         )
     }
