@@ -15,10 +15,17 @@ class Preview extends React.Component {
     render() {
         return (
             <PreviewContainer>
-                <HeaderPreview />
+                <HeaderPreview 
+                    personalInfo={this.props.personalInfo}
+                    experienceInfo={this.props.experienceInfo} />
                 <MainContainer>
-                    <SidebarPreview />
-                    <MainPreview />
+                    <SidebarPreview
+                        personalInfo={this.props.personalInfo}
+                        educationInfo={this.props.educationInfo}
+                        skillsInfo={this.props.skillsInfo} />
+                    <MainPreview 
+                        personalInfo={this.props.personalInfo}
+                        experienceInfo={this.props.experienceInfo} />
                 </MainContainer>
             </PreviewContainer>
         )
