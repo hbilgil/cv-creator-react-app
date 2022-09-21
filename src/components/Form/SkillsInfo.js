@@ -2,7 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const exampleSkills = [" JavaScript", 
-                       " React"
+                       " React",
+                       " HTML",
+                       " CSS",
+                       " Bootstrap",
+                       " Webpack",
+                       " npm",
+                       " Jest"
                        ];
 
 class SkillsInfo extends React.Component {
@@ -38,7 +44,7 @@ class SkillsInfo extends React.Component {
                     }
                     </SkillListDiv> 
                 ))}
-                {this.props.skillsInfo.length < 9 &&
+                {this.props.skillsInfo.length < 8 &&
                     <NewButton
                         type="button"
                         onClick={this.props.addSkill}>+ New
