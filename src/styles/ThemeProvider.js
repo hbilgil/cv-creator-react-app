@@ -10,6 +10,8 @@ const Theme = {
       headerColor: "#34495E",
       positionBackgroundColor: "#e7e8ea",
       positionColor: "#5E345E",
+      inputHoverBackground: "#2d2d2d",
+      inputFocusBackground: "#333",
     },
 };
   
