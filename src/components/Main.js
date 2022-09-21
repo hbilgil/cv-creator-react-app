@@ -50,7 +50,7 @@ class Main extends React.Component {
 
       educationInfo: [
         {
-          name: "UniversityName1",
+          name: "universityName1",
           value: "",
           id: uniqid()
         },
@@ -65,7 +65,7 @@ class Main extends React.Component {
           id: uniqid()
         },
         {
-          name: "UniversityName2",
+          name: "universityName2",
           value: "",
           id: uniqid()
         },
