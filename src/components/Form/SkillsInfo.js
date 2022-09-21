@@ -38,7 +38,7 @@ class SkillsInfo extends React.Component {
                         <Button
                             type="button"
                             id={skill.id}
-                            onClick={() => this.props.removeSkill(index)}>
+                            onClick={this.props.removeSkill(index)}>
                             <i className="fa-regular fa-trash-can"></i>
                         </Button>
                     }
