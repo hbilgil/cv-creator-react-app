@@ -26,47 +26,47 @@ class ExperienceInfo extends React.Component {
                                 <i className="fa-regular fa-trash-can"></i>
                             </Button>
                             }
-                            <Input
-                                placeholder='Company'
-                                name="company"
-                                value={work.company}
-                                onChange={this.props.handleExperienceInfoChange}
-                                type="text"
-                                required>
-                            </Input>
-                            <Input
-                                placeholder='Title'
-                                name="positionTitle"
-                                value={work.position}
-                                onChange={this.props.handleExperienceInfoChange}
-                                type="text"
-                                required>
-                            </Input>
-                            <Input
-                                placeholder='Start Date'
-                                name="startDate"
-                                value={work.start}
-                                onChange={this.props.handleExperienceInfoChange}
-                                type="text"
-                                required>
-                            </Input>
-                            <Input
-                                placeholder='End Date'
-                                name="endDate"
-                                value={work.end}
-                                onChange={this.props.handleExperienceInfoChange}
-                                type="text"
-                                required>
-                            </Input>
-                            <TextArea
-                                placeholder='Your duties'
-                                name="duties"
-                                value={work.task}
-                                onChange={this.props.handleExperienceInfoChange}
-                                type="text"
-                                required>
-                            </TextArea>
                         </HeadLine>
+                        <Input
+                            placeholder='Company'
+                            name="company"
+                            value={work.company}
+                            onChange={this.props.handleExperienceInfoChange}
+                            type="text"
+                            required>
+                        </Input>
+                        <Input
+                            placeholder='Title'
+                            name="positionTitle"
+                            value={work.position}
+                            onChange={this.props.handleExperienceInfoChange}
+                            type="text"
+                            required>
+                        </Input>
+                        <Input
+                            placeholder='Start Date'
+                            name="startDate"
+                            value={work.start}
+                            onChange={this.props.handleExperienceInfoChange}
+                            type="text"
+                            required>
+                        </Input>
+                        <Input
+                            placeholder='End Date'
+                            name="endDate"
+                            value={work.end}
+                            onChange={this.props.handleExperienceInfoChange}
+                            type="text"
+                            required>
+                        </Input>
+                        <TextArea
+                            placeholder='Your duties'
+                            name="duties"
+                            value={work.task}
+                            onChange={this.props.handleExperienceInfoChange}
+                            type="text"
+                            required>
+                        </TextArea>
                     </WorkListDiv>
                 ))}
                 {this.props.experienceInfo.length < 3 &&
