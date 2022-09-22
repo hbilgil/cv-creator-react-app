@@ -35,11 +35,11 @@ class Preview extends React.Component {
 const PreviewContainer = styled.div`
     display: flex;
     flex-direction: column;
-    position: relative;
-    margin-top: 0%;
+    position: sticky;
+    top: 0;
     text-align: center;
     width: 700px;
-    height: 100% !important;
+    height: 100vh;
     
     @media (max-width: 800px) {
         transform: scale(0.9);

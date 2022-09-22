@@ -13,11 +13,11 @@ class MainPreview extends React.Component {
         return (
             <MainPreviewContainer>
                 <InfoDiv>
-                    <h3>PROFILE</h3>
+                    <InfoDivHeader>PROFILE</InfoDivHeader>
                     <p>{this.props.personalInfo[6].value}</p>
                 </InfoDiv>
                 <InfoDiv>
-                    <h3>EXPERIENCE</h3>
+                    <InfoDivHeader>EXPERIENCE</InfoDivHeader>
                     {this.props.experienceInfo.map((experience) => {
                         return (
                             <ExperienceDiv key={experience.id}>
@@ -38,8 +38,11 @@ const MainPreviewContainer = styled.div`
     flex-direction: column;
     background-color: ${({ theme }) => theme.colors.white};
     padding: 35px 35px 35px 28px;
-    text-align: start;
+    text-align: justify;
+    font-size: 14px;
     width: 70%;
+    height: 87vh;
+    gap: 35px;
 `;
 
 const InfoDiv = styled.div`
@@ -47,9 +50,17 @@ const InfoDiv = styled.div`
     flex-direction: column;
 `;
 
+const InfoDivHeader = styled.h3`
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+`;
+
 const ExperienceDiv = styled.div`
     display: flex;
     flex-direction: column;
+    gap: 10px;
 `;
 
 export default MainPreview;

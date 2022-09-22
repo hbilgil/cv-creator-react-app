@@ -21,7 +21,7 @@ class HeaderPreview extends React.Component {
         <HeaderTop>
             <HeaderTopText>
             {capitalizedFirstName}
-            {capitalizedLastName}
+              <Span>{capitalizedLastName}</Span>
             </HeaderTopText>
         </HeaderTop>
         <HeaderBottom>
@@ -40,7 +40,7 @@ const HeaderTop = styled.div`
     align-items: center;
     background-color: #fff;
     width: 100%;
-    height: 10.4vh;
+    height: 10vh;
     padding: 2.5% 0;
 `;
 
@@ -51,13 +51,18 @@ const HeaderTopText = styled.h1`
     font-weight: 300;
 `;
 
+const Span = styled.span`
+    margin-left: 20px;
+`;
+
+
 const HeaderBottom = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: ${({ theme }) => theme.colors.positionBackgroundColor};
     width: 100%;
-    height: 2.3em;
+    height: 5vh;
 `;
 
 const HeaderBottomText = styled.h2`

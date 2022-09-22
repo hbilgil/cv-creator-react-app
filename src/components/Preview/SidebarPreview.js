@@ -69,9 +69,10 @@ const SidebarContainer = styled.div`
     display: flex;
     flex-direction: column;
     background-color: ${({ theme }) => theme.colors.headerColor};
+    color: ${({ theme }) => theme.colors.white};
     box-sizing: border-box;
     width: 30%;
-    height: 80vh;
+    height: 87vh;
     text-align: left;
     padding: 35px 28px;
     gap: 35px;
@@ -80,13 +81,14 @@ const SidebarContainer = styled.div`
 const InfoDiv = styled.div`
     display: flex;
     flex-direction: column;
+    gap: 10px;
 `;
 
 const InfoDivHeader = styled.h3`
     font-family: 'Teko', sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     letter-spacing: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 `;
 
 const ContactDetailsDiv = styled.div`
@@ -97,23 +99,26 @@ const ContactDetailsDiv = styled.div`
 
 const DetailDiv = styled.div`
     display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 10px;
 `;
 
 const DegreeDetailsDiv = styled.div`
     display: flex;
     flex-direction: column;
+    font-size: 16px;
 `;
 
 const SkillList = styled.ul`
     display: flex;
     flex-direction: column;
     padding-left: 16px;
-    gap: 10px;
 `;
 
 const SkillListItem = styled.li`
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
     &::marker {
     font-size: 1.55em;
     color: ${({ theme }) => theme.colors.white};
