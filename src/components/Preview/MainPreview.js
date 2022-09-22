@@ -39,7 +39,7 @@ const MainPreviewContainer = styled.div`
     background-color: ${({ theme }) => theme.colors.white};
     padding: 35px 35px 35px 28px;
     text-align: start;
-    width: 69%;
+    width: 70%;
 `;
 
 const InfoDiv = styled.div`
