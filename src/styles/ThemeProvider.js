@@ -12,6 +12,8 @@ const Theme = {
       positionColor: "#5E345E",
       inputHoverBackground: "#2d2d2d",
       inputFocusBackground: "#333",
+      formComponentBackground: "#adb5bd",
+      utilitiesComponentBackground: "#a6e1fa",
     },
 };
   
