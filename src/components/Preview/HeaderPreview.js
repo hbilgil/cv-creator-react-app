@@ -42,8 +42,6 @@ const HeaderTop = styled.div`
     width: 100%;
     height: 10.4vh;
     padding: 2.5% 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 `;
 
 const HeaderTopText = styled.h1`
