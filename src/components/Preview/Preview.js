@@ -14,7 +14,7 @@ class Preview extends React.Component {
 
     render() {
         return (
-            <PreviewContainer>
+            <PreviewContainer id="preview">
                 <HeaderPreview 
                     personalInfo={this.props.personalInfo}
                     experienceInfo={this.props.experienceInfo} />
