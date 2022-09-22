@@ -46,11 +46,11 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     text-align: flex-start;
-    max-width: 35%;
+    width: 40%;
     min-width: 30%;
     max-height: 100%;
     padding: 0% 2.5%;
-    gap: 35px;
+    gap: 25px;
 
     @media (max-width: 1000px) {
         min-width: 60%;

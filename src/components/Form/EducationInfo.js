@@ -12,13 +12,13 @@ class EducationInfo extends React.Component {
     render() {
         return (
             <EducationFormDiv>
-                <h2>Education Info</h2>
+                <BigHeader>Education Info</BigHeader>
                 <EducationForm>
                     <DegreesDiv>
-                        <h3>Bachelor of Science</h3>
+                        <SmallHeader>Bachelor of Science</SmallHeader>
                         <Input
-                            placeholder="university Name"
-                            name="UniversityName1"
+                            placeholder="University Name"
+                            name="universityName1"
                             value={this.props.educationInfo[0].value}
                             onChange={this.props.handleEducationInfoChange}
                             type="text"
@@ -42,10 +42,10 @@ class EducationInfo extends React.Component {
                         </Input>
                     </DegreesDiv>
                     <DegreesDiv>
-                        <h3>Master of Science</h3>
+                        <SmallHeader>Master of Science</SmallHeader>
                         <Input
-                            placeholder="university Name"
-                            name="UniversityName2"
+                            placeholder="University Name"
+                            name="universityName2"
                             value={this.props.educationInfo[3].value}
                             onChange={this.props.handleEducationInfoChange}
                             type="text"
@@ -78,11 +78,24 @@ const EducationFormDiv = styled.div`
     display: flex;
     flex-direction: column;
     padding: 3.75% 5% 4.25% 5%;
-    border-radius: 10px;
+    border-radius: 6px;
+    gap: 10px;
     background-color: ${({ theme }) => theme.colors.formComponentBackground};
     -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     -moz-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+`;
+
+const BigHeader = styled.h2`
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    letter-spacing: 4px;
+`;
+
+const SmallHeader = styled.h3`
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
 `;
 
 const EducationForm = styled.form`
@@ -98,6 +111,7 @@ const DegreesDiv = styled.div`
 `;
 
 const Input = styled.input`
+    font-size: 14px;
     width: 100%;
     box-sizing: border-box;
     padding: 1.5% 0;
@@ -112,6 +126,9 @@ const Input = styled.input`
     }
     &:active {
         transform: scale(0.98);
+    }
+    &::placeholder {
+        font-size: 12px;
     }
 `;
 

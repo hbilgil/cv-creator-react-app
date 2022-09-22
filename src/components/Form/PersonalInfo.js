@@ -12,7 +12,7 @@ class PersonalInfo extends React.Component {
     render() {
         return (
             <PersonalFormDiv>
-                <h2>Personal Info</h2>
+                <Header>Personal Info</Header>
                 <PersonalForm>
                     <DoubleInputsDiv>
                         <Input 
@@ -84,17 +84,25 @@ const PersonalFormDiv = styled.div`
     display: flex;
     flex-direction: column;
     padding: 3.75% 5% 4.25% 5%;
-    border-radius: 10px;
+    border-radius: 6px;
+    gap: 10px;
     background-color: ${({ theme }) => theme.colors.formComponentBackground};
     -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     -moz-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 `;
 
+const Header = styled.h2`
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    letter-spacing: 4px;
+`;
+
 const PersonalForm = styled.form`
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin-top: 15px;
 `;
 
 const DoubleInputsDiv = styled.div`
@@ -103,6 +111,7 @@ const DoubleInputsDiv = styled.div`
 `;
 
 const Input = styled.input`
+    font-size: 14px;
     width: 100%;
     box-sizing: border-box;
     padding: 1.5% 0;
@@ -118,9 +127,13 @@ const Input = styled.input`
     &:active {
         transform: scale(0.98);
     }
+    &::placeholder {
+        font-size: 12px;
+    }
 `;
 
 const TextArea = styled.textarea`
+    font-size: 14px;
     width: 100%;
     height: 100px;
     resize: none;
@@ -137,6 +150,9 @@ const TextArea = styled.textarea`
     }
     &:active {
         transform: scale(0.98);
+    }
+    &::placeholder {
+        font-size: 12px;
     }
 `;
 
