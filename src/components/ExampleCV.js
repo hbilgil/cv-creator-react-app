@@ -45,12 +45,11 @@ const ExampleCV = {
         },
         {
           name: "details",
-          value: `I am an industrial engineer and I have been learning web development tools and
-            languages including HTML, CSS; JavaScript through open-sourced project The Odin
-            Project (TOP). This has been my personal target in my life so far and I did start this
-            journey 6 month ago at the end. I am about to complete all the courses and projects
-            within these platforms as a self-taught developer in 2022. Please see my portfolio:
-            GitHub.com/hbilgil`,
+          value: `I am an industrial engineer and I have been learning web development tools and 
+languages including HTML, CSS; JavaScript through open-sourced project The Odin 
+Project (TOP). This has been my personal target in my life so far and I did start this
+journey 6 month ago at the end. I am about to complete all the courses and projects
+within these platforms as a self-taught developer in 2022. Please see my portfolio: GitHub.com/hbilgil`,
           id: uniqid()
         },
       ],
@@ -92,8 +91,7 @@ const ExampleCV = {
         { 
           company: "The Odin Project",
           position: "Self-taught Frontend Developer",
-          task: `I am following the Odin Project Curriculum to learn web development (Full Stack) since March
-            2022. And I am building projects during self-taught courses`,
+          task: `I am following the Odin Project Curriculum to learn web development (Full Stack) since March 2022. And I am building projects during self-taught courses`,
           start: "2022",
           end: "Present",
           id: uniqid(),
