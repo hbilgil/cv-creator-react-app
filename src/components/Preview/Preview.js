@@ -38,8 +38,8 @@ const PreviewContainer = styled.div`
     position: relative;
     margin-top: 0%;
     text-align: center;
-    width: 670px;
-    height: 100vh !important;
+    width: 700px;
+    height: 100% !important;
     
     @media (max-width: 800px) {
         transform: scale(0.9);
