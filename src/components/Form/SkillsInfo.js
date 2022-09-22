@@ -61,6 +61,10 @@ const SkillsFormDiv = styled.div`
     flex-direction: column;
     padding: 3.75% 5% 4.25% 5%;
     border-radius: 10px;
+    background-color: ${({ theme }) => theme.colors.formComponentBackground};
+    -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    -moz-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 `;
 
 const SkillsForm = styled.form`
