@@ -314,7 +314,7 @@ max-width: 1800px;
 padding: 4rem 8rem;
 margin: 0 auto;
 margin-bottom: 4rem;
-@media (max-width: 1600px) {
+@media (max-width: 850px) {
   flex-direction: column;
   align-items: center;
 }
