@@ -51,7 +51,6 @@ const FormContainer = styled.div`
     max-height: 100%;
     padding: 0% 2.5%;
     gap: 25px;
-
     @media (max-width: 1000px) {
         min-width: 60%;
         max-width: 65%;
