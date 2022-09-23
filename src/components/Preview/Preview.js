@@ -40,7 +40,6 @@ const PreviewContainer = styled.div`
     text-align: center;
     width: 700px;
     height: 100vh;
-    
     @media (max-width: 800px) {
         transform: scale(0.9);
     }
