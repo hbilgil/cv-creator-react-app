@@ -50,13 +50,17 @@ const HeaderTop = styled.div`
 
 const HeaderTopText = styled.h1`
     color: ${({ theme }) => theme.colors.headerColor};
-    letter-spacing: 8px;
+    font-size: 2.2vw;
+    letter-spacing: 0.58vw;
     font-family: 'Secular One', sans-serif;
     font-weight: 300;
+    @media (max-width: 1000px) {
+      font-size: 3.4vw;
+    }
 `;
 
 const Span = styled.span`
-    margin-left: 20px;
+    margin-left: 1.3vw;
 `;
 
 
@@ -72,9 +76,12 @@ const HeaderBottom = styled.div`
 const HeaderBottomText = styled.h2`
     color: ${({ theme }) => theme.colors.positionColor};
     font-family: 'Reem Kufi Ink', sans-serif;
-    font-size: 14px;
-    letter-spacing: 3px;
+    font-size: 1.1vw;
+    letter-spacing: 0.2vw;
     font-weight: 300;
+    @media (max-width: 1000px) {
+        font-size: 1.8vw;
+    }
 `;
 
 export default HeaderPreview;

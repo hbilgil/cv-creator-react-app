@@ -38,31 +38,37 @@ const MainPreviewContainer = styled.div`
     display: flex;
     flex-direction: column;
     background-color: ${({ theme }) => theme.colors.white};
-    padding: 35px 35px 35px 28px;
+    padding: 5.5vh 5.5vh 5.5vh 2vw;
+    font-size: 0.9vw;
     text-align: justify;
-    font-size: 14px;
     width: 100%;
     height: 109vh;
-    gap: 55px;
+    gap: 6vh;
+    @media (max-width: 1000px) {
+        font-size: 1.4vw;
+    }
 `;
 
 const InfoDiv = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2.6vh;
 `;
 
 const InfoDivHeader = styled.h3`
     font-family: 'Teko', sans-serif;
-    font-size: 24px;
-    letter-spacing: 4px;
-    margin-bottom: 10px;
+    font-size: 1.3vw;
+    letter-spacing: 0.4vw;
+    margin-bottom: 1.5vh;
+    @media (max-width: 1000px) {
+        font-size: 2.2vw;
+    }
 `;
 
 const ExperienceDiv = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.9vw;
 `;
 
 export default MainPreview;

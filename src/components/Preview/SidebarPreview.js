@@ -78,7 +78,7 @@ const SidebarContainer = styled.div`
     height: 109vh;
     text-align: left;
     padding: 5.5vh 2vw;
-    gap: 7vh;
+    gap: 6vh;
 `;
 
 const InfoDiv = styled.div`
@@ -128,7 +128,7 @@ const SkillList = styled.ul`
     display: flex;
     flex-direction: column;
     padding-left: 16px;
-    gap: 1.5vh;
+    gap: 1vh;
     @media (max-width: 1000px) {
         padding-left: 8px;
         gap: 1.2vh;
