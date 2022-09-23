@@ -48,6 +48,7 @@ const MainPreviewContainer = styled.div`
 const InfoDiv = styled.div`
     display: flex;
     flex-direction: column;
+    gap: 10px;
 `;
 
 const InfoDivHeader = styled.h3`
@@ -60,7 +61,7 @@ const InfoDivHeader = styled.h3`
 const ExperienceDiv = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 `;
 
 export default MainPreview;
