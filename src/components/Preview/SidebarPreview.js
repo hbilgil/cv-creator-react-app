@@ -43,11 +43,13 @@ class SidebarPreview extends React.Component {
                         <h4>{this.props.educationInfo[1].value}</h4>
                         <h5>{this.props.educationInfo[0].value}</h5>
                         <p>{this.props.educationInfo[2].value}</p>
+                        <p>{this.props.educationInfo[3].value}</p>
                     </DegreeDetailsDiv>
                     <DegreeDetailsDiv>
-                        <h4>{this.props.educationInfo[4].value}</h4>
-                        <h5>{this.props.educationInfo[3].value}</h5>
-                        <p>{this.props.educationInfo[5].value}</p>
+                        <h4>{this.props.educationInfo[5].value}</h4>
+                        <h5>{this.props.educationInfo[4].value}</h5>
+                        <p>{this.props.educationInfo[6].value}</p>
+                        <p>{this.props.educationInfo[7].value}</p>
                     </DegreeDetailsDiv>
                 </InfoDiv>
                 <InfoDiv>
@@ -107,7 +109,7 @@ const DetailDiv = styled.div`
 const DegreeDetailsDiv = styled.div`
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 12px;
 `;
 
 const SkillList = styled.ul`
