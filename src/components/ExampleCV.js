@@ -46,7 +46,7 @@ const ExampleCV = {
         {
           name: "details",
           value: `I am an industrial engineer and I have been learning web development tools and 
-languages including HTML, CSS; JavaScript through open-sourced project The Odin 
+languages including HTML, CSS, JavaScript through open-sourced project The Odin 
 Project (TOP). This has been my personal target in my life so far and I did start this
 journey 6 month ago at the end. I am about to complete all the courses and projects
 within these platforms as a self-taught developer in 2022. Please see my portfolio: GitHub.com/hbilgil`,
@@ -66,6 +66,11 @@ within these platforms as a self-taught developer in 2022. Please see my portfol
           id: uniqid()
         },
         {
+          name: "universityMajor1",
+          value: "Industrial Engineering",
+          id: uniqid()
+        },
+        {
           name: "universityDate1",
           value: "2002 - 2007",
           id: uniqid()
@@ -78,6 +83,11 @@ within these platforms as a self-taught developer in 2022. Please see my portfol
         {
           name: "universityDegree2",
           value: "Postgraduate Diploma",
+          id: uniqid()
+        },
+        {
+          name: "universityMajor2",
+          value: "Operations Management",
           id: uniqid()
         },
         {
