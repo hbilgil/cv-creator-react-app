@@ -63,6 +63,11 @@ class Main extends React.Component {
           id: uniqid()
         },
         {
+          name: "universityMajor1",
+          value: "",
+          id: uniqid()
+        },
+        {
           name: "universityDate1",
           value: "",
           id: uniqid()
@@ -74,6 +79,11 @@ class Main extends React.Component {
         },
         {
           name: "universityDegree2",
+          value: "",
+          id: uniqid()
+        },
+        {
+          name: "universityMajor2",
           value: "",
           id: uniqid()
         },
