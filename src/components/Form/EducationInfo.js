@@ -15,7 +15,7 @@ class EducationInfo extends React.Component {
                 <BigHeader>Education Info</BigHeader>
                 <EducationForm>
                     <DegreesDiv>
-                        <SmallHeader>Bachelor of Science</SmallHeader>
+                        <SmallHeader>Degree 1</SmallHeader>
                         <Input
                             placeholder="University Name"
                             name="universityName1"
@@ -33,20 +33,28 @@ class EducationInfo extends React.Component {
                             required>
                         </Input>
                         <Input
+                            placeholder="Major"
+                            name="universityMajor1"
+                            value={this.props.educationInfo[2].value}
+                            onChange={this.props.handleEducationInfoChange}
+                            type="text"
+                            required>
+                        </Input>
+                        <Input
                             placeholder="Dates From - To"
                             name="universityDate1"
-                            value={this.props.educationInfo[2].value}
+                            value={this.props.educationInfo[3].value}
                             onChange={this.props.handleEducationInfoChange}
                             type="text"
                             required>
                         </Input>
                     </DegreesDiv>
                     <DegreesDiv>
-                        <SmallHeader>Master of Science</SmallHeader>
+                        <SmallHeader>Degree 2</SmallHeader>
                         <Input
                             placeholder="University Name"
                             name="universityName2"
-                            value={this.props.educationInfo[3].value}
+                            value={this.props.educationInfo[4].value}
                             onChange={this.props.handleEducationInfoChange}
                             type="text"
                             required>
@@ -54,7 +62,15 @@ class EducationInfo extends React.Component {
                         <Input
                             placeholder="Degree"
                             name="universityDegree2"
-                            value={this.props.educationInfo[4].value}
+                            value={this.props.educationInfo[5].value}
+                            onChange={this.props.handleEducationInfoChange}
+                            type="text"
+                            required>
+                        </Input>
+                        <Input
+                            placeholder="Major"
+                            name="universityMajor2"
+                            value={this.props.educationInfo[6].value}
                             onChange={this.props.handleEducationInfoChange}
                             type="text"
                             required>
@@ -62,7 +78,7 @@ class EducationInfo extends React.Component {
                         <Input
                             placeholder="Dates From - To"
                             name="universityDate2"
-                            value={this.props.educationInfo[5].value}
+                            value={this.props.educationInfo[7].value}
                             onChange={this.props.handleEducationInfoChange}
                             type="text"
                             required>
