@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/cv-creator-react-app/static/js/main.11d01eeb.js",
+    "static/js/703.dc7e3605.chunk.js": "/cv-creator-react-app/static/js/703.dc7e3605.chunk.js",
+    "static/js/56.ee13294b.chunk.js": "/cv-creator-react-app/static/js/56.ee13294b.chunk.js",
+    "index.html": "/cv-creator-react-app/index.html",
+    "main.11d01eeb.js.map": "/cv-creator-react-app/static/js/main.11d01eeb.js.map",
+    "703.dc7e3605.chunk.js.map": "/cv-creator-react-app/static/js/703.dc7e3605.chunk.js.map",
+    "56.ee13294b.chunk.js.map": "/cv-creator-react-app/static/js/56.ee13294b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.11d01eeb.js"
+  ]
+}
