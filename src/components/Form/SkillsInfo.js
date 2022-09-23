@@ -156,6 +156,7 @@ const NewButton = styled.button`
     border-color: #008296;
     box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
     outline: 0;
+    transform: scale(0.98);
   }
 `;
 

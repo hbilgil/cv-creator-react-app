@@ -320,13 +320,13 @@ display: flex;
 align-items: flex-start;
 justify-content: space-between;
 gap: 4rem;
-max-width: 1800px;
+max-width: 1600px;
 padding: 4rem 8rem;
 margin: 0 auto;
 margin-bottom: 4rem;
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 `;
 

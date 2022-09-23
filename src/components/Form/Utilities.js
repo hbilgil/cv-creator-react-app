@@ -122,8 +122,6 @@ const Button = styled.button`
 
 const ButtonText = styled.span`
     font-size: 12px;
-    @media (max-width: 620px) {
-        display: none;
 }
 `;
 

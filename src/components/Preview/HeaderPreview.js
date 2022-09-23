@@ -17,7 +17,7 @@ class HeaderPreview extends React.Component {
     const capitalizedLastName = lastName.charAt(0).toUpperCase() + lastName.slice(1).toLowerCase();
 
     return (
-      <>
+      <HeaderPreviewContainer>
         <HeaderTop>
             <HeaderTopText>
             {capitalizedFirstName}
@@ -29,10 +29,14 @@ class HeaderPreview extends React.Component {
             {this.props.experienceInfo[0].position}
             </HeaderBottomText>
         </HeaderBottom>
-      </>
+      </HeaderPreviewContainer>
     )
   }
 }
+
+const HeaderPreviewContainer = styled.div`
+    grid-row: 1 / 2;
+`;
 
 const HeaderTop = styled.div`
     display: flex;
@@ -40,7 +44,7 @@ const HeaderTop = styled.div`
     align-items: center;
     background-color: #fff;
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     padding: 2.5% 0;
 `;
 

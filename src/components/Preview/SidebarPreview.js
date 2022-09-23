@@ -68,63 +68,79 @@ class SidebarPreview extends React.Component {
 }
 
 const SidebarContainer = styled.div`
+    grid-column: 1 / 2;
     display: flex;
     flex-direction: column;
     background-color: ${({ theme }) => theme.colors.headerColor};
     color: ${({ theme }) => theme.colors.white};
     box-sizing: border-box;
-    width: 30%;
-    height: 87vh;
+    width: 100%;
+    height: 109vh;
     text-align: left;
-    padding: 35px 28px;
-    gap: 35px;
+    padding: 5.5vh 2vw;
+    gap: 7vh;
 `;
 
 const InfoDiv = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2.6vh;
 `;
 
 const InfoDivHeader = styled.h3`
     font-family: 'Teko', sans-serif;
-    font-size: 18px;
-    letter-spacing: 4px;
-    margin-bottom: 10px;
+    font-size: 1.3vw;
+    letter-spacing: 0.4vw;
+    margin-bottom: 1.5vh;
+    @media (max-width: 1000px) {
+        font-size: 1.7vw;
+    }
 `;
 
 const ContactDetailsDiv = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 1.9vh;
 `;
 
 const DetailDiv = styled.div`
     display: flex;
     align-items: center;
-    font-size: 12px;
-    gap: 10px;
+    font-size: 0.82vw;
+    gap: 0.9vw;
+    @media (max-width: 1000px) {
+        font-size: 1.2vw;
+    }
 `;
 
 const DegreeDetailsDiv = styled.div`
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 0.82vw;
+    gap: 0.6vh;
+    @media (max-width: 1000px) {
+        font-size: 1.3vw;
+        gap: 0.3vh;
+    }
 `;
 
 const SkillList = styled.ul`
     display: flex;
     flex-direction: column;
     padding-left: 16px;
+    gap: 1.5vh;
+    @media (max-width: 1000px) {
+        padding-left: 8px;
+        gap: 1.2vh;
+    }
 `;
 
 const SkillListItem = styled.li`
     font-weight: 400;
-    font-size: 12px;
-    &::marker {
-    font-size: 1.55em;
-    color: ${({ theme }) => theme.colors.white};
-  }
+    font-size: 0.82vw;
+    @media (max-width: 1000px) {
+        font-size: 1.3vw;
+    }
 `;
 
 export default SidebarPreview;

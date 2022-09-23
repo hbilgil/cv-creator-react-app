@@ -34,21 +34,22 @@ class MainPreview extends React.Component {
 }
 
 const MainPreviewContainer = styled.div`
+    grid-column: 2 / 3;
     display: flex;
     flex-direction: column;
     background-color: ${({ theme }) => theme.colors.white};
     padding: 35px 35px 35px 28px;
     text-align: justify;
     font-size: 14px;
-    width: 70%;
-    height: 87vh;
-    gap: 35px;
+    width: 100%;
+    height: 109vh;
+    gap: 55px;
 `;
 
 const InfoDiv = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 `;
 
 const InfoDivHeader = styled.h3`
@@ -61,7 +62,7 @@ const InfoDivHeader = styled.h3`
 const ExperienceDiv = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
 `;
 
 export default MainPreview;

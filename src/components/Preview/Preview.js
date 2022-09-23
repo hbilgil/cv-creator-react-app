@@ -33,32 +33,23 @@ class Preview extends React.Component {
 }
 
 const PreviewContainer = styled.div`
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 7fr;
     position: sticky;
     top: 0;
     text-align: center;
-    width: 700px;
-    height: 100vh;
-    @media (max-width: 800px) {
-        transform: scale(0.9);
-    }
-    @media (max-width: 600px) {
-        transform: scale(0.675);
-        flex-shrink: 0;
-    }
-    @media (max-width: 450px) {
-        transform: scale(0.525);
-        flex-shrink: 0;
-    }
-    @media (max-width: 375px) {
-        transform: scale(0.45);
-        flex-shrink: 0;
+    width: 50vw;
+    @media (max-width: 1000px) {
+        width: 90%;
+        min-width: 70vw;
+        max-width: 100%;
     }
 `;
 
 const MainContainer = styled.div`
-    display: flex;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 `;
 
 export default Preview;
